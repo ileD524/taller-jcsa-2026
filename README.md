@@ -151,7 +151,7 @@ Vamos a tener **dos Workers distintos** en Cloudflare y cada uno se identifica p
 4. Cargar el secreto y desplegar:
    ```bash
    uv run pywrangler secret put NEON_CONNECTION_STRING   # la 1ª vez pregunta si crear el Worker: sí
-   uv run pywrangler deploy
+   uv run pywrangler deploy 
    ```
 5. Probar `curl https://taller-api.<tu-subdominio>.workers.dev/health` → `{"ok":true}`.
 
@@ -229,4 +229,5 @@ y seguí el taller con la app local. Si la API local no arranca, comentá `VITE_
   En un proyecto real conviene limitar CORS al dominio de tu front y no exponer detalles de errores.
 
 ## Contacto
-`[Completar: nombre y correo de contacto]`
+`[Nombre: Donda, Melisa]`
+`[Contacto: melidonda524@gmail.com]`
